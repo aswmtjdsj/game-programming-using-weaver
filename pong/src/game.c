@@ -46,13 +46,13 @@ int main(int argc, char **argv){
 	if(keyboard[ESC] || score1 == 12 || score2 == 12){
       break;
     }
-	if(keyboard[LEFT_SHIFT])
+	if(keyboard[W])
 		move_paddle(paddle1, UP);
-	else if(keyboard[LEFT_ALT])
+	else if(keyboard[S])
 		move_paddle(paddle1, DOWN);
-	if(keyboard[RIGHT_SHIFT])
+	if(keyboard[I])
 		move_paddle(paddle2, UP);
-	else if(keyboard[RIGHT_ALT])
+	else if(keyboard[K])
 		move_paddle(paddle2, DOWN);
 
 	move_ball();
