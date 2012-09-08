@@ -48,11 +48,11 @@ int main(int argc, char **argv){
     }
 	if(keyboard[LEFT_SHIFT])
 		move_paddle(paddle1, UP);
-	else if(keyboard[LEFT_CTRL])
+	else if(keyboard[LEFT_ALT])
 		move_paddle(paddle1, DOWN);
 	if(keyboard[RIGHT_SHIFT])
 		move_paddle(paddle2, UP);
-	else if(keyboard[RIGHT_CTRL])
+	else if(keyboard[RIGHT_ALT])
 		move_paddle(paddle2, DOWN);
 
 	move_ball();
